@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'uname -a'
-                sh 'echo this is the master branch - run 2'
+                sh 'echo this is the master/main branch'
             }
         }
     }
